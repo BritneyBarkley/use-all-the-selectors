@@ -2,7 +2,8 @@ html {
   background-color: #fdf6e3;
 }
 
-header, footer {
+*, *::before, *::after {
+  box-sizing: inherit;
   font-size: 1.5rem;
 }
 
@@ -22,7 +23,7 @@ nav ul {
   color: #93a1a1;
 }
 
-.dfn {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
@@ -30,7 +31,7 @@ nav ul {
   color: #fff;
 }
 
-.no-highlight {
+a:not(.no-highlight) {
   background-color: #719e07;
 }
 
