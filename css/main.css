@@ -1,4 +1,4 @@
-body {
+html {
   background-color: #fdf6e3;
 }
 
@@ -22,11 +22,11 @@ nav ul {
   color: #93a1a1;
 }
 
-:first-child .dfn {
+.dfn {
   background-color: #b58900;
 }
 
-strong .dfn {
+.dfn:first-child {
   color: #fff;
 }
 
@@ -34,14 +34,15 @@ strong .dfn {
   background-color: #719e07;
 }
 
-rel="external" {
+[rel="external"] {
   background-color: #2694d8;
 }
 
-ol li {
+ol li:first-child {
   color: #719e47;
 }
-ol li {
+
+ol li:last-child {
   color: #2aa198;
 }
 
