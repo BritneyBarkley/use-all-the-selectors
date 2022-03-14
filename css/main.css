@@ -1,4 +1,8 @@
 html {
+  box-sizing: border-box;
+}
+
+body {
   background-color: #fdf6e3;
 }
 
@@ -27,7 +31,7 @@ nav ul {
   background-color: #b58900;
 }
 
-.dfn:first-child {
+.dfn + strong {
   color: #fff;
 }
 
@@ -55,6 +59,6 @@ ol li:last-child {
   background-color: #586e75;
 }
 
-.types li:nth-child(3) {
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
