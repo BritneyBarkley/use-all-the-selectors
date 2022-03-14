@@ -7,7 +7,7 @@ header, footer {
 }
 
 nav ul {
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
 
 .logo {
@@ -15,13 +15,44 @@ nav ul {
 }
 
 .wrapper {
-  background-color: #eee8d5
+  background-color: #eee8d5;
 }
 
 #contents, #favs, #facts, #types {
   color: #93a1a1;
 }
 
-.dfn {
+:first-child .dfn {
   background-color: #b58900;
+}
+
+strong .dfn {
+  color: #fff;
+}
+
+.no-highlight {
+  background-color: #719e07;
+}
+
+rel="external" {
+  background-color: #2694d8;
+}
+
+ol li {
+  color: #719e47;
+}
+ol li {
+  color: #2aa198;
+}
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types li:nth-child(3) {
+  background-color: #d04b16;
 }
